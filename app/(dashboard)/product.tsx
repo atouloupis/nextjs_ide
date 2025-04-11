@@ -49,7 +49,8 @@ export function Product({ product }: { product: SelectProduct }) {
             <DropdownMenuItem>Edit</DropdownMenuItem>
             <DropdownMenuItem>
               <form action={deleteProduct}>
-                <button type="submit">Delete</button>
+              <input type="hidden" name="id" value={product.id} />
+              <button type="submit" className="w-full text-left">Delete</button>
               </form>
             </DropdownMenuItem>
           </DropdownMenuContent>

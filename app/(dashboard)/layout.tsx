@@ -86,6 +86,10 @@ function DesktopNav() {
           <Users2 className="h-5 w-5" />
         </NavItem>
 
+        <NavItem href="/ide" label="Docker IDE">
+          <Package className="h-5 w-5" />
+        </NavItem>
+
         <NavItem href="#" label="Analytics">
           <LineChart className="h-5 w-5" />
         </NavItem>
